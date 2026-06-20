@@ -1,0 +1,22 @@
+# Data — never upload BraTS data
+*.nii.gz
+*.nii
+data/
+preprocessed/
+
+# Model checkpoints — too large for GitHub
+*.pth
+*.pt
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+*.egg-info/
+dist/
+build/

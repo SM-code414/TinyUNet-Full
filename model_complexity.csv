@@ -1,0 +1,9 @@
+Run_Key,Model,Label,BC,Params_M,FLOPs_G
+unet,unet,UNet (bc32),32,22.575,537.609
+resunet,resunet,ResUNet (bc32),32,15.19,541.099
+attentionunet,attentionunet,Att-UNet (bc32),32,22.662,541.68
+tinyunet_full_16,tinyunet_full,TinyUNet-Full (bc16),16,1.403,132.037
+tinyunet_full_32,tinyunet_full,TinyUNet-Full (bc32),32,5.604,513.383
+tinyunet_bc16,tinyunet_baseline,TinyUNet-Base (bc32*),32,5.601,506.135
+tinyunet_edge_bc16,tinyunet_edge,TinyUNet+Edge (bc16),16,1.403,132.037
+tinyunet_edge_ds_bc16,tinyunet_edge_ds,TinyUNet+Edge+DS (bc16),16,1.403,132.037

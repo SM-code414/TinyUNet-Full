@@ -1,0 +1,27 @@
+# Core
+numpy
+scipy
+pandas
+
+# Medical imaging
+nibabel
+h5py
+medpy
+monai
+
+# Deep learning
+torch
+torchvision
+einops
+thop
+torchsummary
+
+# Metrics & utilities
+scikit-learn
+tqdm
+
+# Visualization
+matplotlib
+imageio
+opencv-python-headless==4.10.0.84
+
