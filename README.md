@@ -247,7 +247,7 @@ Column mapping to paper tables:
 | CSV column | Paper metric |
 |---|---|
 | `dice_c1` | TC-DSC (tumour core) |
-| `dice_c2` | WT-DSC (whole tumour / FLAIR hyperintensity) |
+| `dice_c2` | WT-DSC (whole tumour ) |
 | `dice_c3` | ET-DSC (enhancing tumour) |
 | `hd95_c1` | TC-HD95 |
 | `hd95_c2` | WT-HD95 |
@@ -301,28 +301,6 @@ Pre-computed values are in `model_complexity.csv`.
 
 ---
 
-## Expected Results
-
-### Table 2 — Held-out Test Set (100 patients)
-
-| Model | BC | ET-DSC | TC-DSC | WT-DSC | ET-HD95 | TC-HD95 | WT-HD95 |
-|---|---|---|---|---|---|---|---|
-| 3D U-Net | 32 | 0.829 ± 0.291 | 0.819 ± 0.297 | 0.813 ± 0.287 | 30.66 | 31.12 | 31.24 |
-| ResUNet | 32 | 0.838 ± 0.269 | 0.834 ± 0.269 | 0.832 ± 0.266 | 20.61 | 20.18 | 19.46 |
-| Att-UNet | 32 | 0.838 ± 0.248 | 0.827 ± 0.256 | 0.819 ± 0.250 | 32.73 | 32.74 | 25.74 |
-| **TinyUNet-Full** | **16** | **0.886 ± 0.215** | **0.882 ± 0.216** | **0.872 ± 0.213** | **18.24** | **18.68** | **16.21** |
-| **TinyUNet-Full** | **32** | **0.893 ± 0.179** | **0.892 ± 0.179** | **0.884 ± 0.176** | 21.35 | 21.68 | 20.06 |
-
-### Table 4 — Ablation Study (B=16)
-
-| Stage | ET-DSC | TC-DSC | WT-DSC | Mean HD95 |
-|---|---|---|---|---|
-| A1: TinyUNet-Base | 0.855 ± 0.258 | 0.850 ± 0.258 | 0.835 ± 0.258 | 17.11 mm |
-| A2: + Edge | 0.856 ± 0.239 | 0.853 ± 0.241 | 0.827 ± 0.238 | 16.39 mm |
-| A3: + Edge + DS | **0.887 ± 0.214** | **0.883 ± 0.214** | **0.872 ± 0.213** | **9.99 mm** |
-| A4: TinyUNet-Full | 0.886 ± 0.215 | 0.882 ± 0.216 | 0.872 ± 0.213 | 17.71 mm |
-
----
 
 ## Hardware
 
