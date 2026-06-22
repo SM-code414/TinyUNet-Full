@@ -7,7 +7,7 @@
 Official implementation of **TinyUNet-Full**, as described in:
 
 > **TinyUNet-Full: A Compact Boundary-Aware 3D Encoder-Decoder with Edge-Guided Dual Supervision for Volumetric Meningioma Segmentation**
-> [Author names] — *PeerJ Computer Science*, 2026
+> [Swarna Malini Johnson, Shenbagarajan Anantharajan] — *, 2026
 > DOI: [to be added on acceptance]
 
 ---
