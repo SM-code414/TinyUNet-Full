@@ -8,9 +8,9 @@
 Official implementation of **TinyUNet-Full**, as described in:
 
 > **TinyUNet-Full: A Compact Boundary-Aware 3D Encoder-Decoder with Edge-Guided Dual Supervision for Volumetric Meningioma Segmentation**
-> [Author names] — *PeerJ Computer Science*, 2026
+> [Mrs.Swarna Malini Johnson; Dr.Shenbagarajan Anantharajan] — *PeerJ Computer Science*, 2026
 > DOI: [to be added on acceptance] | Code: https://doi.org/10.5281/zenodo.20795551
-
+> Email: [swarnamalini@mepcoeng.ac.in; shenbagarajan@mepcoeng.ac.in]
 ---
 
 ## Overview
@@ -327,7 +327,7 @@ If you use this code or the TinyUNet-Full model in your research, please cite:
 @article{tinyunetfull2026,
   title   = {TinyUNet-Full: A Compact Boundary-Aware 3D Encoder-Decoder with
              Edge-Guided Dual Supervision for Volumetric Meningioma Segmentation},
-  author  = {[Author names]},
+  author  = {[Swarna Malini Johnson,Shenbagarajan Anantharajan]},
   journal = {PeerJ Computer Science},
   year    = {2026},
   doi     = {[to be added on acceptance]},
