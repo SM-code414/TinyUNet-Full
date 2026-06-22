@@ -3,13 +3,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.0-red.svg)](https://pytorch.org/)
+[![DOI](https://zenodo.org/badge/1275025804.svg)](https://doi.org/10.5281/zenodo.20795551)
 
 Official implementation of **TinyUNet-Full**, as described in:
 
 > **TinyUNet-Full: A Compact Boundary-Aware 3D Encoder-Decoder with Edge-Guided Dual Supervision for Volumetric Meningioma Segmentation**
-> [Swarna Malini Johnson, Shenbagarajan Anantharajan] — *, 2026
-> DOI: [to be added on acceptance]
-> Email: swarnamalini@mepcoeng.ac.in; shenbagarajan@mepcoeng.ac.in
+> [Author names] — *PeerJ Computer Science*, 2026
+> DOI: [to be added on acceptance] | Code: https://doi.org/10.5281/zenodo.20795551
+
 ---
 
 ## Overview
@@ -329,7 +330,8 @@ If you use this code or the TinyUNet-Full model in your research, please cite:
   author  = {[Author names]},
   journal = {PeerJ Computer Science},
   year    = {2026},
-  doi     = {[to be added on acceptance]}
+  doi     = {[to be added on acceptance]},
+  note    = {Code: \url{https://doi.org/10.5281/zenodo.20795551}}
 }
 ```
 
